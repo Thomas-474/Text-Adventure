@@ -9,20 +9,35 @@
 <body>
     <div id="signInBtns">
         <button id="logInBtn">Log In</button>
+        <br><br>
         <button id="signUpBtn">Sign Up</button>
     </div>
 
-    <img id="settingsBtnImg" src="Settings Btn (High Res).png" alt="Settings Button" onclick="DisplaySettings()">
+    <!-- #region Settings Modal -->
+        <!-- Settings Button -->
+        <img id="settingsBtnImg" data-modal-target="#modal" src="Settings Btn (High Res).png" alt="Settings Button">
 
-    <div id="settingsDisplay"></div>
+        <!-- Settings Popup -->
+        <div class="modal" id="modal">
+            <!-- Settings Header -->
+            <div class="modalHeader">
+                <div class="title">Settings</div>
+                <button data-close-button class="closeBtn">&times;</button>
+            </div>
 
-    
+            <!-- Settings Body -->
+            <div class="modalBody">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nihil, error quos cupiditate sapiente provident itaque optio! Optio, soluta? Quam maiores voluptatibus ipsum veritatis ea nisi delectus blanditiis doloremque officiis!
+            </div>
+        </div>
+
+        <!-- Dark Overlay Over Elements Around Settings Popup -->
+        <div id="overlay"></div>
+    <!-- #endregion -->
 
 
 
 
-
-    
     <script
         src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="

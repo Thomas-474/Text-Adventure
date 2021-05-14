@@ -1,14 +1,34 @@
-Text Adventure Part 2: https://classroom.google.com/u/0/c/MzA3MTU1NDk2OTQ1/a/MzE1NzYwODE3Nzkz/details
-Final Javascript Text Adventure: https://classroom.google.com/u/0/c/MzA3MTU1NDk2OTQ1/a/MzM0MjkxMjkyMzIy/details
+To Do List:
+    - Make all buttons, links, and clickable elements become unclickable and not change the cursor when it hover over them when the settings popup is active
+    - Make setting button not be under settings overlay
+    - Make the Log In and Sign Up buttons be in the center of the page
 
-GitHub: https://github.com/Thomas-474/Text-Adventure/settings
+Text Adventure Part 2:
+    https://classroom.google.com/u/0/c/MzA3MTU1NDk2OTQ1/a/MzE1NzYwODE3Nzkz/details
+Final Javascript Text Adventure:
+    https://classroom.google.com/u/0/c/MzA3MTU1NDk2OTQ1/a/MzM0MjkxMjkyMzIy/details
 
-Campaign Doc: https://docs.google.com/document/d/1sTXaXC_WuHEAZgjtmgQ88IY-AhybRsrGKbF55u8fJwo/edit
+GitHub:
+    https://github.com/Thomas-474/Text-Adventure/settings
 
-Character Sheet: https://media.wizards.com/2016/dnd/downloads/5E_CharacterSheet_Fillable.pdf
+Campaign Doc:
+    https://docs.google.com/document/d/1sTXaXC_WuHEAZgjtmgQ88IY-AhybRsrGKbF55u8fJwo/edit
 
-D&D Races: https://www.dndbeyond.com/races?scrlybrkr
-WOW Races: https://worldofwarcraft.com/en-us/game/races?scrlybrkr
+Character Sheet:
+    https://media.wizards.com/2016/dnd/downloads/5E_CharacterSheet_Fillable.pdf
 
-D&D Classes: https://www.dndbeyond.com/classes
-WOW Classes: https://worldofwarcraft.com/en-us/game/classes
+D&D Races:
+    https://www.dndbeyond.com/races?scrlybrkr
+WOW Races:
+    https://worldofwarcraft.com/en-us/game/races?scrlybrkr
+
+D&D Classes:
+    https://www.dndbeyond.com/classes
+WOW Classes:
+    https://worldofwarcraft.com/en-us/game/classes
+
+Popup Modal Tutorial:
+    https://youtu.be/MBaw_6cPmAw
+
+jQuery Link:
+    $(document).ready(() => {})
